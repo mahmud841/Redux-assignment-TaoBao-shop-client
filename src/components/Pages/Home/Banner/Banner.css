@@ -1,0 +1,47 @@
+.carousel-one {
+  background: url(../../../../images//slider-1.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px 40px;
+  color: rgb(66, 43, 43);
+}
+.carousel-two {
+  background: url(../../../../images//slider-2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px 40px;
+  color: rgb(209, 79, 79);
+}
+.carousel-three {
+  background: url(../../../../images//slider-3.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px 40px;
+  color: rgb(66, 43, 43);
+}
+
+.banner-title {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-one,
+  .carousel-two,
+  .carousel-three {
+    padding: 50px 20px;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .banner-title {
+    font-size: 24px;
+    margin: 0 !important;
+  }
+  .banner-sub-title {
+    font-size: 14px;
+    margin: 0 !important;
+  }
+  .banner-text {
+    font-size: 14px;
+    margin-bottom: 10px !important;
+  }
+}
