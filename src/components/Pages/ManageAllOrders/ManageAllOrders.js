@@ -9,7 +9,6 @@ import "./ManageAllOrders.css";
 import ManageSingleOrder from "./ManageSingleOrder/ManageSingleOrder";
 
 const ManageAllOrders = () => {
-  // dynamic title
   useDocumentTitle("Manage All Orders");
   // states
   const [orders, setOrders] = useState([]);
@@ -57,7 +56,7 @@ const ManageAllOrders = () => {
     });
   };
 
-  // spinner
+  //*************spinner
   if (isLoading) {
     return (
       <div className="text-center py-4">
@@ -67,7 +66,6 @@ const ManageAllOrders = () => {
   }
   return (
     <>
-      {/* banner  */}
       <OthersBanner>Manage All Orders</OthersBanner>
       <Container className="py-5 px-3 px-sm-5 colored-bg text-white rounded-3 shadow my-4">
         <h2 className="text-center fs-2 mb-5">

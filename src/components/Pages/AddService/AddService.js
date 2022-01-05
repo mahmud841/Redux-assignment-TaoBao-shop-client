@@ -9,10 +9,10 @@ import OthersBanner from "../../Shared/OthersBanner/OthersBanner";
 import "./AddService.css";
 
 const AddService = () => {
-  // dynamic title
+  //******dynamic title
   useDocumentTitle("Add a Service");
 
-  // redirect  route
+  //*********redirect  route
   const navigate = useNavigate();
   const redirectUrl = "/services";
 

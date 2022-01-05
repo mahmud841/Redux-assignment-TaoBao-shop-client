@@ -26,7 +26,7 @@ const Blogs = () => {
     <>
       <Container className="py-5 animate__animated animate__slideInUp animate__delay-2s">
         <h2 className="text-center fs-1">
-          Lates <span className="colored-text">Blogs</span>
+         Our Lates <span className="colored-text">Blogs</span>
         </h2>
         <Row xs={1} md={2} lg={3} className="g-4 mt-3">
           {blogs.map((blog) => (

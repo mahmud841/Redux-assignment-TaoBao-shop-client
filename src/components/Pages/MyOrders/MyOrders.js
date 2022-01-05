@@ -76,7 +76,6 @@ const MyOrders = () => {
 
   return (
     <>
-      {/* banner  */}
       <OthersBanner>Orders</OthersBanner>
       <Container className="py-5 px-4 colored-bg text-white rounded-3 shadow my-4">
         <h2 className="text-center fs-2 mb-5">

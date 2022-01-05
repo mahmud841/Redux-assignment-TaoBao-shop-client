@@ -17,10 +17,11 @@
 * User can update their product status.
 * User can add products, manage orders, cancel orders,Delete orders that means CRUD operation.
 * I use Axios to fetch the data
+* Used jest and enzyme for unit Testing
 
 ## Technology Used -
 
 React.js,Redux, React Bootstrap, CSS, Node.js, Express.js, MongoDB ,Netlify
-Firebase, Heroku, Stripe and so on.
+Firebase, Heroku, Stripe,Jest and so on.
 
 * *********************  HappY Coding *************                                  

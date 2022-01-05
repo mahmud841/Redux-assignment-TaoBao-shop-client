@@ -6,7 +6,7 @@ import SingleService from "../../Shared/SingleService/SingleService";
 import "./AllServices.css";
 
 const AllServices = () => {
-  // dynamic title
+  //*********dynamic title
   useDocumentTitle("Services");
 
   const [services, setServices] = useState([]);
@@ -30,9 +30,7 @@ const AllServices = () => {
   }
   return (
     <div>
-      {/* banner  */}
       <OthersBanner>Our Services</OthersBanner>
-      {/* serivce  */}
       <Container className="py-5">
         <h2 className="text-center fs-2">
           Our <span className="colored-text">Our Services</span>

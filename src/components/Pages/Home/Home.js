@@ -11,15 +11,10 @@ const Home = () => {
   useDocumentTitle("Deliveryhut - Professional delivery services", false);
   return (
     <div>
-      {/* banner section  */}
       <Banner></Banner>
-      {/* feature contact section  */}
       <FeatureContact></FeatureContact>
-      {/* service section  */}
       <ServiceSection></ServiceSection>
-      {/* testimonials section  */}
       <Testimonials></Testimonials>
-      {/* blog section  */}
       <Blogs></Blogs>
     </div>
   );

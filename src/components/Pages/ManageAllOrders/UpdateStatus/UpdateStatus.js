@@ -18,13 +18,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faBan } from "@fortawesome/free-solid-svg-icons";
 
 const UpdateStatus = () => {
-  // dynamic title
   useDocumentTitle("Update Order");
   const { id } = useParams();
-  //   states
+
   const [order, setOrder] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-  // redirect private route
+  //*************redirect private route
   const navigate = useNavigate();
   const redirectUrl = "/manageAllOrders";
 
@@ -130,7 +129,7 @@ const UpdateStatus = () => {
     });
   };
 
-  // spinner
+  //**********spinner
   if (isLoading) {
     return (
       <div className="text-center py-4">
@@ -141,7 +140,6 @@ const UpdateStatus = () => {
 
   return (
     <>
-      {/* banner  */}
       <OthersBanner>Update Order Status</OthersBanner>
       <Container className="py-5 px-3 px-sm-5 colored-bg text-white rounded-3 shadow my-4">
         <Row className="shadow px-3 py-3 rounded-3 align-items-center g-4 animate__animated animate__fadeInTopRight">

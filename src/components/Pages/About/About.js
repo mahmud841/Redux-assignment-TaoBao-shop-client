@@ -12,13 +12,9 @@ const About = () => {
 
   return (
     <>
-      {/* banner  */}
       <OthersBanner>About Us</OthersBanner>
-      {/* mission vission  */}
       <MissionVission></MissionVission>
-      {/* about company  */}
       <AboutCompany></AboutCompany>
-      {/* team section  */}
       <Team></Team>
     </>
   );

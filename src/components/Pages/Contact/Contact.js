@@ -6,15 +6,12 @@ import ContactDetails from "./ContactDetails/ContactDetails";
 import ContactForm from "./ContactForm/ContactForm";
 
 const Contact = () => {
-  // dynamic title
+  //***********dynamic title
   useDocumentTitle("Contact");
   return (
     <>
-      {/* banner  */}
       <OthersBanner>Contact Us</OthersBanner>
-      {/* contact detials  */}
       <ContactDetails></ContactDetails>
-      {/* contact form  */}
       <ContactForm></ContactForm>
     </>
   );

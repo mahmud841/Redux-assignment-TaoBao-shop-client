@@ -1,7 +1,5 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "./TeamMember.css";
 
 const TeamMember = ({ member }) => {
@@ -16,23 +14,6 @@ const TeamMember = ({ member }) => {
           </Card.Title>
           <p style={{ fontSize: 14, color: "#073b4c" }}>{title}</p>
           <div>
-           {/*  <a
-              className="member-social"
-              // href={fb}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebookF} />
-              <i class="fab fa-facebook"></i>
-            </a> */}
-         {/*    <a
-              className="member-social"
-              // href={twitter}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a> */}
           </div>
         </Card.Body>
       </Card>

@@ -19,11 +19,11 @@ const OrderPlace = () => {
   const [isLoading, setIsLoading] = useState(true);
   const { user } = useAuth();
 
-  // redirect  route
+  //***************redirect  route
   const navigate = useNavigate();
   const redirectUrl = "/myOrders";
 
-  // load data
+  //**********load data
   useEffect(() => {
     setIsLoading(true);
     fetch(`https://morning-sierra-84457.herokuapp.com/services/${id}`)
@@ -74,7 +74,6 @@ const OrderPlace = () => {
 
   return (
     <>
-      {/* banner  */}
       <OthersBanner>Place Order</OthersBanner>
       <Container className="py-5 px-4 my-4 bg-white shadow rounded-3">
         <h2 className="text-center fs-2 mb-4">

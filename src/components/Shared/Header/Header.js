@@ -39,7 +39,7 @@ const Header = () => {
                 as={NavLink}
                 to="/services"
               >
-                Services
+                Our Services
               </Nav.Link>
               {user?.email && (
                 <Nav.Link

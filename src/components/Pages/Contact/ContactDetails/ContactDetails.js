@@ -45,7 +45,7 @@ const ContactDetails = () => {
               </div>
               <div>
                 <h4>Mobile </h4>
-                <p>+880 3965234564</p>
+                <p>+880 13965234564</p>
               </div>
             </div>
           </Col>

@@ -23,7 +23,7 @@ const SingleBlog = ({ blog }) => {
             style={{ color: "#006d77" }}
             className="text-decoration-none"
           >
-            Read More
+           Interested? Read More
             <span className="ms-2">
               <FontAwesomeIcon icon={faAngleDoubleRight} />
             </span>

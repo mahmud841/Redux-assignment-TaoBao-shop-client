@@ -57,7 +57,7 @@ const CheckoutForm = ({ order }) => {
       // console.log(paymentMethod);
     }
 
-    // payment intent
+    //***************payment intent
     const { paymentIntent, error: intentError } =
       await stripe.confirmCardPayment(clientSecret, {
         payment_method: {
