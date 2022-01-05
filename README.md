@@ -3,7 +3,7 @@
 
 ### Full-Stack project with Authentication
 
-[Live site Link]()
+[Live site Link](https://taobao-shop841.netlify.app)
 
 [GitHub-Server](https://github.com/mahmud841/Redux-assignment-Taobao-shop-Server)
 
